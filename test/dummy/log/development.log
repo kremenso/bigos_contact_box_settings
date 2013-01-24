@@ -6482,3 +6482,71 @@ ActionView::Template::Error (uninitialized constant BigosContactBox::Controllers
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:39:30 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (43.7ms)
+  Rendered test/index.html.erb within layouts/application (75.4ms)
+Completed 500 Internal Server Error in 84ms
+
+ActionView::Template::Error (undefined method `marker_icon_src' for BigosContactBox:Module):
+    22:     </fieldset>
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path(BigosContactBox.marker_icon_src) unless BigosContactBox.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom, BigosContactBox.map_zoom unless BigosContactBox.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude, BigosContactBox.location.first %>
+    28: <%= hidden_field_tag :longitude, BigosContactBox.location.second %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__4492438700672140785_69977533926580'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:41:15 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (43.7ms)
+  Rendered test/index.html.erb within layouts/application (77.6ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (Could not find table 'settings'):
+    22:     </fieldset>
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosSettings::Settings.contact_marker_icon_src) unless  BigosSettings::Settings.contact_marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  BigosSettings::Settings.contact_map_zoom unless  BigosSettings::Settings.contact_map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  BigosSettings::Settings.contact_location.first %>
+    28: <%= hidden_field_tag :longitude,  BigosSettings::Settings.contact_location.second %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__2376752180381559154_69955421553680'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:41:18 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (3.5ms)
+  Rendered test/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Could not find table 'settings'):
+    22:     </fieldset>
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosSettings::Settings.contact_marker_icon_src) unless  BigosSettings::Settings.contact_marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  BigosSettings::Settings.contact_map_zoom unless  BigosSettings::Settings.contact_map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  BigosSettings::Settings.contact_location.first %>
+    28: <%= hidden_field_tag :longitude,  BigosSettings::Settings.contact_location.second %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__2376752180381559154_69955421553680'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)

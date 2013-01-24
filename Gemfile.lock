@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/kremenso/bigos_settings.git
+  revision: 7bdbde8546891a5caf12f738134c5cacc986bfef
+  specs:
+    bigos_settings (0.0.1)
+      rails (~> 3.2.9)
+      rails-settings-cached
+
 PATH
   remote: .
   specs:
@@ -67,6 +75,8 @@ GEM
       activesupport (= 3.2.11)
       bundler (~> 1.0)
       railties (= 3.2.11)
+    rails-settings-cached (0.2.4)
+      rails (>= 3.0.0)
     railties (3.2.11)
       actionpack (= 3.2.11)
       activesupport (= 3.2.11)
@@ -95,5 +105,6 @@ PLATFORMS
 
 DEPENDENCIES
   bigos_contact_box!
+  bigos_settings!
   jquery-rails
   sqlite3

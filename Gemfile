@@ -16,4 +16,6 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+gem "bigos_settings", :git=>"git://github.com/kremenso/bigos_settings.git"
+
 
