@@ -6,7 +6,7 @@ class ContactMailer < ActionMailer::Base
 
     if msg != nil
       @message = msg
-      mail(:to => BigosContactBox.user_name, :from => BigosContactBox.user_name, :subject => @message.subject)
+      mail(:to => BigosSettings::Settings.contact_user_name, :from => BigosSettings::Settings.contact_user_name, :subject => @message.subject)
     end
   end
   end
