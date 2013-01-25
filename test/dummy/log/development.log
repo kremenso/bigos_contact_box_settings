@@ -6550,3 +6550,725 @@ ActionView::Template::Error (Could not find table 'settings'):
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
   Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:44:09 +0100
+Processing by TestController#index as HTML
+  [1m[36mBigosSettings::Settings Load (0.9ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'contact_marker_icon_src' LIMIT 1[0m
+  [1m[35mBigosSettings::Settings Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'contact_map_zoom' LIMIT 1
+  [1m[36mBigosSettings::Settings Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'contact_location' LIMIT 1[0m
+  [1m[35mBigosSettings::Settings Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'contact_location_name' LIMIT 1
+  [1m[36mBigosSettings::Settings Load (0.4ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'contact_invalid_fields_error' LIMIT 1[0m
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (125.1ms)
+  Rendered test/index.html.erb within layouts/application (132.8ms)
+Compiled application.css  (0ms)  (pid 17790)
+Compiled jquery.js  (1ms)  (pid 17790)
+Compiled jquery_ujs.js  (0ms)  (pid 17790)
+Compiled bigos_contact_box/bigos_contact_box.js  (0ms)  (pid 17790)
+Compiled application.js  (55ms)  (pid 17790)
+Completed 200 OK in 243ms (Views: 229.3ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-24 23:44:10 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-24 23:44:10 +0100
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-24 23:44:10 +0100
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-24 23:44:10 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-24 23:44:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:45:04 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (undefined local variable or method `bigos_contact_box_widget' for #<#<Class:0x000000034f89d8>:0x00000003784e18>):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___168492690677234477_70277411601020'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (13.3ms)
+  Rendered test/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 88ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-24 23:45:46 +0100
+Served asset /application.js - 304 Not Modified (7ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36mBigosContactBox::BigosContactBoxSetting Load (1.1ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::BigosContactBoxSetting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'use_widget_mailer_settings' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", Thu, 24 Jan 2013 23:05:31 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::BigosContactBoxSetting"], ["updated_at", Thu, 24 Jan 2013 23:05:31 UTC +00:00], ["value", "--- false\n...\n"], ["var", "use_widget_mailer_settings"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36mBigosContactBox::Setting Load (1.3ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'use_widget_mailer_settings' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- false\n...\n"], ["var", "use_widget_mailer_settings"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36mBigosContactBox::Setting Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'use_widget_mailer_settings' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'address_name' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- smtp.gmail.com\n...\n"], ["var", "address_name"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'port' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- 587\n...\n"], ["var", "port"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'domain' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- yourdomain.dev\n...\n"], ["var", "domain"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'user_name' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- from@yourdomain.dev\n...\n"], ["var", "user_name"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'password' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- Super-Secure-Password\n...\n"], ["var", "password"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'location' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "---\n- latitude\n- longitude\n"], ["var", "location"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'invalid_fields_error' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- Invalid Fields\n...\n"], ["var", "invalid_fields_error"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'success_message' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- Message sent successfully\n...\n"], ["var", "success_message"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'location_name' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- Location name\n...\n"], ["var", "location_name"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.7ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'redirect_path' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- ''\n"], ["var", "redirect_path"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'map_zoom' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- ''\n"], ["var", "map_zoom"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."type" IN ('BigosContactBox::Setting') AND "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'marker_icon_src' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["type", "BigosContactBox::Setting"], ["updated_at", Thu, 24 Jan 2013 23:10:38 UTC +00:00], ["value", "--- ''\n"], ["var", "marker_icon_src"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/pages/26" for 127.0.0.1 at 2013-01-25 00:10:58 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/26"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:11:01 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (40.6ms)
+  Rendered test/index.html.erb within layouts/application (50.1ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    22:     </fieldset>
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( Setting.marker_icon_src) unless  Setting.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  Setting.map_zoom unless  Setting.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  Setting.location.first %>
+    28: <%= hidden_field_tag :longitude,  Setting.location.second %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3022262916789725960_70189399706460'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:11:44 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (5.6ms)
+  Rendered test/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting.marker_icon_src) unless  BigosContactBox::Setting.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  Setting.map_zoom unless  Setting.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  Setting.location.first %>
+    28: <%= hidden_field_tag :longitude,  Setting.location.second %>
+    29: <%= hidden_field_tag :location_name,  Setting.location_name %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3022262916789725960_70189399706460'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:11:45 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (10.0ms)
+  Rendered test/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting.marker_icon_src) unless  BigosContactBox::Setting.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  Setting.map_zoom unless  Setting.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  Setting.location.first %>
+    28: <%= hidden_field_tag :longitude,  Setting.location.second %>
+    29: <%= hidden_field_tag :location_name,  Setting.location_name %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3022262916789725960_70189399706460'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:11:46 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (6.6ms)
+  Rendered test/index.html.erb within layouts/application (36.7ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting.marker_icon_src) unless  BigosContactBox::Setting.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  Setting.map_zoom unless  Setting.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  Setting.location.first %>
+    28: <%= hidden_field_tag :longitude,  Setting.location.second %>
+    29: <%= hidden_field_tag :location_name,  Setting.location_name %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3022262916789725960_70189399706460'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:11:46 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (4.9ms)
+  Rendered test/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Setting):
+    23: <% end %>
+    24: </div>
+    25: <%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting.marker_icon_src) unless  BigosContactBox::Setting.marker_icon_src.blank? %>
+    26: <%= hidden_field_tag :map_zoom,  Setting.map_zoom unless  Setting.map_zoom.blank? %>
+    27: <%= hidden_field_tag :latitude,  Setting.location.first %>
+    28: <%= hidden_field_tag :longitude,  Setting.location.second %>
+    29: <%= hidden_field_tag :location_name,  Setting.location_name %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb___3022262916789725960_70189399706460'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (6.2ms)
+  Rendered test/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=&message%5Bsubject%5D=&message%5Bbody%5D=" for 127.0.0.1 at 2013-01-25 00:12:06 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"", "subject"=>"", "body"=>""}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=&message%5Bsubject%5D=&message%5Bbody%5D=" for 127.0.0.1 at 2013-01-25 00:12:07 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"", "subject"=>"", "body"=>""}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=&message%5Bsubject%5D=&message%5Bbody%5D=" for 127.0.0.1 at 2013-01-25 00:12:08 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"", "subject"=>"", "body"=>""}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=&message%5Bsubject%5D=&message%5Bbody%5D=" for 127.0.0.1 at 2013-01-25 00:12:08 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"", "subject"=>"", "body"=>""}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (5.1ms)
+  Rendered test/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:28 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=kremensO%40o2.pl&message%5Bsubject%5D=rewrewr&message%5Bbody%5D=rew" for 127.0.0.1 at 2013-01-25 00:12:34 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"kremensO@o2.pl", "subject"=>"rewrewr", "body"=>"rew"}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/bigos_contact_box/messages" for 127.0.0.1 at 2013-01-25 00:12:34 +0100
+Processing by BigosContactBox::MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"kremensO@o2.pl", "subject"=>"rewrewr", "body"=>"rew"}}
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/contact_mailer/custom_message.text.erb (0.6ms)
+
+Sent mail to from@yourdomain.dev (58ms)
+Date: Fri, 25 Jan 2013 00:12:35 +0100
+From: from@yourdomain.dev
+To: from@yourdomain.dev
+Message-ID: <5101bfe3274da_48f13fd63e587f24205fd@kaptur-HP-ProBook-4520s.mail>
+Subject: rewrewr
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Email: kremensO@o2.pl
+
+Subject: rewrewr
+
+Body: rew
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 616ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (4.6ms)
+  Rendered test/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:12:35 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (35.2ms)
+  Rendered test/index.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:01 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=rwer&message%5Bsubject%5D=rwe&message%5Bbody%5D=wer" for 127.0.0.1 at 2013-01-25 00:13:04 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"rwer", "subject"=>"rwe", "body"=>"wer"}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bigos_contact_box/messages?utf8=%E2%9C%93&authenticity_token=feSlu3%2BtZFglaoG1p44v%2FAceL9yKwEMl4ymZ4PC5%2BFg%3D&message%5Bemail%5D=rwer%40wp.pl&message%5Bsubject%5D=rwe&message%5Bbody%5D=wer" for 127.0.0.1 at 2013-01-25 00:13:15 +0100
+Processing by BigosContactBox::MessagesController#index as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"rwer@wp.pl", "subject"=>"rwe", "body"=>"wer"}}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/bigos_contact_box/messages" for 127.0.0.1 at 2013-01-25 00:13:15 +0100
+Processing by BigosContactBox::MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"rwer@wp.pl", "subject"=>"rwe", "body"=>"wer"}}
+Completed 500 Internal Server Error in 7ms
+
+RuntimeError (from@yourdomain.dev):
+  /home/kaptur/rails-workspace/bigos_contact_box_settings/app/mailers/bigos_contact_box/contact_mailer.rb:6:in `custom_message'
+  actionpack (3.2.11) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.11) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.11) lib/abstract_controller/rendering.rb:45:in `process'
+  actionmailer (3.2.11) lib/action_mailer/base.rb:458:in `process'
+  actionmailer (3.2.11) lib/action_mailer/base.rb:452:in `initialize'
+  actionmailer (3.2.11) lib/action_mailer/base.rb:439:in `new'
+  actionmailer (3.2.11) lib/action_mailer/base.rb:439:in `method_missing'
+  /home/kaptur/rails-workspace/bigos_contact_box_settings/app/controllers/bigos_contact_box/messages_controller.rb:7:in `create'
+  actionpack (3.2.11) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.11) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.11) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.11) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:403:in `_run__1585792168333096704__process_action__4213866030425604797__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.11) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.11) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.11) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.11) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.11) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.11) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.11) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.11) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.11) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.11) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.11) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.11) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.11) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.4) lib/rack/etag.rb:23:in `call'
+  rack (1.4.4) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.4) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__1296557023935787927__call__4596170936170993717__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kaptur/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started POST "/bigos_contact_box/messages" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Processing by BigosContactBox::MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"feSlu3+tZFglaoG1p44v/AceL9yKwEMl4ymZ4PC5+Fg=", "message"=>{"email"=>"rwer@wp.pl", "subject"=>"rwe", "body"=>"wer"}}
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/contact_mailer/custom_message.text.erb (0.1ms)
+
+Sent mail to from@yourdomain.dev (6ms)
+Date: Fri, 25 Jan 2013 00:13:27 +0100
+From: from@yourdomain.dev
+To: from@yourdomain.dev
+Message-ID: <5101c0174386e_48f13fd63e56e3082068e@kaptur-HP-ProBook-4520s.mail>
+Subject: rwe
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Email: rwer@wp.pl
+
+Subject: rwe
+
+Body: wer
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (4.5ms)
+  Rendered test/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:27 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (4.4ms)
+  Rendered test/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:13:47 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:13:57 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (587):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3476695372265903924_18989240'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:14:05 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (587):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3476695372265903924_18989240'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:14:06 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (587):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3476695372265903924_18989240'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 00:14:14 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (11.2ms)
+  Rendered test/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (3ms)

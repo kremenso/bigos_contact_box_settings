@@ -22,11 +22,11 @@
     </fieldset>
 <% end %>
 </div>
-<%= hidden_field_tag :marker_icon, asset_path( BigosSettings::Settings.contact_marker_icon_src) unless  BigosSettings::Settings.contact_marker_icon_src.blank? %>
-<%= hidden_field_tag :map_zoom,  BigosSettings::Settings.contact_map_zoom unless  BigosSettings::Settings.contact_map_zoom.blank? %>
-<%= hidden_field_tag :latitude,  BigosSettings::Settings.contact_location.first %>
-<%= hidden_field_tag :longitude,  BigosSettings::Settings.contact_location.second %>
-<%= hidden_field_tag :location_name,  BigosSettings::Settings.contact_location_name %>
-<%= hidden_field_tag :invalid_fields_error,  BigosSettings::Settings.contact_invalid_fields_error %>
+<%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting.marker_icon_src) unless  BigosContactBox::Setting.marker_icon_src.blank? %>
+<%= hidden_field_tag :map_zoom,  BigosContactBox::Setting.map_zoom unless  BigosContactBox::Setting.map_zoom.blank? %>
+<%= hidden_field_tag :latitude,  BigosContactBox::Setting.location.first %>
+<%= hidden_field_tag :longitude,  BigosContactBox::Setting.location.second %>
+<%= hidden_field_tag :location_name,  BigosContactBox::Setting.location_name %>
+<%= hidden_field_tag :invalid_fields_error,  BigosContactBox::Setting.invalid_fields_error %>
 <div id="contact-box-map-canvas" style="width:400px; height: 400px">
 </div>

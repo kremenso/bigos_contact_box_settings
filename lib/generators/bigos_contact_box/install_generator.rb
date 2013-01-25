@@ -4,10 +4,10 @@ module BigosContactBox
       source_root File.expand_path("../../templates", __FILE__)
 
       desc "Creates a BigosContactBox initializer."
-      #def copy_initializer
-      #  template "bigos_contact_box.rb", "config/initializers/bigos_contact_box.rb"
-      #end
-      #
+      def copy_initializer
+        template "bigos_contact_box.rb", "config/initializers/bigos_contact_box.rb"
+      end
+
       def include_js
         insert_into_file "app/assets/javascripts/application.js", :after => %r{//= require +['"]?jquery_ujs['"]?} do
 		      "\n//= require 'bigos_contact_box/bigos_contact_box'"
@@ -19,19 +19,20 @@ module BigosContactBox
       end
 
       def create_settings
-        BigosSettings::Settings.contact_use_widget_mailer_settings = false
-        BigosSettings::Settings.contact_address_name = "smtp.gmail.com"
-        BigosSettings::Settings.contact_port = 587
-        BigosSettings::Settings.contact_domain = "yourdomain.dev"
-        BigosSettings::Settings.contact_user_name = "from@yourdomain.dev"
-        BigosSettings::Settings.contact_password = "Super-Secure-Password"
-        BigosSettings::Settings.contact_location = ["latitude", "longitude"]
-        BigosSettings::Settings.contact_invalid_fields_error = "Invalid Fields"
-        BigosSettings::Settings.contact_success_message = "Message sent successfully"
-        BigosSettings::Settings.contact_location_name = "Location name"
-        BigosSettings::Settings.contact_redirect_path = ""
-        BigosSettings::Settings.contact_map_zoom = ""
-        BigosSettings::Settings.contact_marker_icon_src = ""
+        Setting.use_widget_mailer_settings = false
+        Setting.use_widget_mailer_settings = false
+        Setting.address_name = "smtp.gmail.com"
+        Setting.port = 587
+        Setting.domain = "yourdomain.dev"
+        Setting.user_name = "from@yourdomain.dev"
+        Setting.password = "Super-Secure-Password"
+        Setting.location = ["latitude", "longitude"]
+        Setting.invalid_fields_error = "Invalid Fields"
+        Setting.success_message = "Message sent successfully"
+        Setting.location_name = "Location name"
+        Setting.redirect_path = ""
+        Setting.map_zoom = ""
+        Setting.marker_icon_src = ""
       end
 
     end

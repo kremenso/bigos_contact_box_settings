@@ -7,6 +7,7 @@ gemspec
 
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
+gem "pg"
 #gem "bigos_settings", :git=>"git@github.com:kremenso/bigos_settings.git"
 
 # Declare any dependencies that are still in development here instead of in

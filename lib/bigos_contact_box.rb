@@ -1,4 +1,5 @@
 require "bigos_contact_box/engine"
+require "bigos_settings"
 
 module BigosContactBox
 

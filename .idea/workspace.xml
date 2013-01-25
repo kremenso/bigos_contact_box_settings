@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2034dac-c2ae-402f-9775-6a9349c31534" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/bigos_contact_box/setting.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/generators/templates/bigos_contact_box.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigos_contact_box.gemspec" afterPath="$PROJECT_DIR$/bigos_contact_box.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bigos_contact_box.rb" afterPath="$PROJECT_DIR$/lib/bigos_contact_box.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb" afterPath="$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/config/database.yml" afterPath="$PROJECT_DIR$/test/dummy/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/dummy/log/development.log" afterPath="$PROJECT_DIR$/test/dummy/log/development.log" />
     </list>
     <ignored path="bigos_contact_box_settings.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,64 +35,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb">
+      <file leaf-file-name="message.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/bigos_contact_box/message.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="705" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="11" column="36" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigos_contact_box.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb">
+      <file leaf-file-name="helpers.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="39" selection-end="39" vertical-scroll-proportion="0.1264045">
+            <state line="6" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.1598579">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="setting.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/bigos_contact_box/setting.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="9" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+            <state line="1" column="8" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bigos_contact_box.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box.rb">
+        <entry file="file://$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/dummy/app/views/test/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/bigos_contact_box/application_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="4" selection-start="687" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="2" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,16 +74,7 @@
       <file leaf-file-name="_widget.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bigos_contact_box.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bigos_contact_box.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+            <state line="29" column="62" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +83,34 @@
       <file leaf-file-name="messages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="58" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+            <state line="9" column="34" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_mailer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bigos_contact_box.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bigos_contact_box.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="111" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,23 +129,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/test/dummy/app/views/test/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb" />
+        <option value="$PROJECT_DIR$/app/models/bigos_contact_box/BigosContactBoxSetting.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/templates/bigos_contact_box.rb" />
+        <option value="$PROJECT_DIR$/lib/bigos_contact_box.rb" />
+        <option value="$PROJECT_DIR$/bigos_contact_box.gemspec" />
+        <option value="$PROJECT_DIR$/app/models/bigos_contact_box/bigos_contact_box_setting.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb" />
         <option value="$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb" />
-        <option value="$PROJECT_DIR$/lib/bigos_contact_box.rb" />
-        <option value="$PROJECT_DIR$/test/dummy/app/views/test/index.html.erb" />
-        <option value="$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb" />
-        <option value="$PROJECT_DIR$/bigos_contact_box.gemspec" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb" />
+        <option value="$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="74" />
+    <option name="y" value="173" />
+    <option name="width" value="1291" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -172,8 +177,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,14 +296,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -312,41 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_contact_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_contact_box_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dummy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,6 +322,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,19 +401,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_contact_box_settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Rails.Development: bigos_contact_box_settings">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/lib/generators" />
+      <recent name="$PROJECT_DIR$/app/models/bigos_contact_box" />
+      <recent name="$PROJECT_DIR$/test/dummy/config/initializers" />
+      <recent name="$PROJECT_DIR$/test/dummy/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rails.Development: settings">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -589,7 +641,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Production: bigos_contact_box_settings" type="RailsRunConfigurationType" factoryName="Rails">
+    <configuration default="false" name="Production: settings" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="bigos_contact_box_settings" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -613,7 +665,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Development: bigos_contact_box_settings" type="RailsRunConfigurationType" factoryName="Rails">
+    <configuration default="false" name="Development: settings" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="bigos_contact_box_settings" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -640,8 +692,8 @@
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: bigos_contact_box_settings" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: bigos_contact_box_settings" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: settings" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: settings" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -654,15 +706,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="74" y="173" width="1291" height="714" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26059154" sideWeight="0.6702786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26752618" sideWeight="0.65422076" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -671,6 +722,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3457792" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -730,46 +782,69 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb">
+    <entry file="file://$PROJECT_DIR$/test/dummy/app/views/test/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1359067058000" expanded="true" signature="-1:-1" placeholder="#..." />
-          </folding>
-        </state>
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="106" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/templates/bigos_contact_box.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="49" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dummy/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="696" selection-end="766" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/bigos_contact_box.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="58" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+        <state line="10" column="111" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="58" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+        <state line="2" column="2" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/bigos_contact_box/application_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_contact_box/messages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="142" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+        <state line="9" column="34" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bigos_contact_box/setting.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -781,67 +856,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="9" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0">
+        <state line="29" column="62" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box.rb">
+    <entry file="file://$PROJECT_DIR$/app/mailers/bigos_contact_box/contact_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bigos_contact_box/controllers/helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1359067058000" expanded="true" signature="-1:-1" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigos_contact_box.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="687" selection-end="757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/dummy/app/views/test/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_contact_box/module/_widget.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bigos_contact_box/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="705" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/dummy/config/initializers/bigos_contact_box.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="39" selection-end="39" vertical-scroll-proportion="0.1264045">
+        <state line="6" column="8" selection-start="135" selection-end="135" vertical-scroll-proportion="0.1598579">
           <folding />
         </state>
       </provider>
