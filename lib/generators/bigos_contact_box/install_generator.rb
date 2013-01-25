@@ -19,20 +19,20 @@ module BigosContactBox
       end
 
       def create_settings
-        Setting.use_widget_mailer_settings = false
-        Setting.use_widget_mailer_settings = false
-        Setting.address_name = "smtp.gmail.com"
-        Setting.port = 587
-        Setting.domain = "yourdomain.dev"
-        Setting.user_name = "from@yourdomain.dev"
-        Setting.password = "Super-Secure-Password"
-        Setting.location = ["latitude", "longitude"]
-        Setting.invalid_fields_error = "Invalid Fields"
-        Setting.success_message = "Message sent successfully"
-        Setting.location_name = "Location name"
-        Setting.redirect_path = ""
-        Setting.map_zoom = ""
-        Setting.marker_icon_src = ""
+        Setting["#{BigosContactBox.name}_use_widget_mailer_settings"] = false
+        Setting["#{BigosContactBox.name}_use_widget_mailer_settings"] = false
+        Setting["#{BigosContactBox.name}_address_name"] = "smtp.gmail.com"
+        Setting["#{BigosContactBox.name}_port"] = 587
+        Setting["#{BigosContactBox.name}_Setting.domain"] = "yourdomain.dev"
+        Setting["#{BigosContactBox.name}_"] = "from@yourdomain.dev"
+        Setting["#{BigosContactBox.name}_password"] = "Super-Secure-Password"
+        Setting["#{BigosContactBox.name}_location"] = ["latitude", "longitude"]
+        Setting["#{BigosContactBox.name}_invalid_fields_error"] = "Invalid Fields"
+        Setting["#{BigosContactBox.name}_success_message"] = "Message sent successfully"
+        Setting["#{BigosContactBox.name}_location_name"] = "Location name"
+        Setting["#{BigosContactBox.name}_redirect_path"] = ""
+        Setting["#{BigosContactBox.name}_map_zoom"] = ""
+        Setting["#{BigosContactBox.name}_marker_icon_src"] = ""
       end
 
     end

@@ -7272,3 +7272,258 @@ Served asset /application.js - 304 Not Modified (5ms)
 
 Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 00:14:15 +0100
 Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 17:22:43 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (12.4ms)
+  Rendered test/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 17:22:44 +0100
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 17:22:44 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 17:22:44 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 17:22:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 17:22:44 +0100
+Served asset /application.js - 200 OK (6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 18:59:44 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (11.7ms)
+  Rendered test/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 92ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 18:59:45 +0100
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 18:59:45 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 18:59:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 18:59:45 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 18:59:45 +0100
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (3.6ms)
+  Rendered test/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 19:00:26 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:00:34 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (yourdomain.dev):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3733460840591866984_31762520'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (26.9ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:02:08 +0100
+Processing by TestController#index as HTML
+  Rendered test/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (yourdomain.dev):
+    1: <%= bigos_contact_box_widget %>
+  app/views/test/index.html.erb:1:in `_app_views_test_index_html_erb__3733460840591866984_31762520'
+
+
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/kaptur/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (11.3ms)
+  Rendered test/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 19:02:16 +0100
+Served asset /application.js - 304 Not Modified (7ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36mBigosContactBox::Setting Load (1.5ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_use_widget_mailer_settings' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (6.8ms)[0m  [1mINSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- false\n...\n"], ["var", "BigosContactBox_use_widget_mailer_settings"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36mBigosContactBox::Setting Load (0.7ms)[0m  [1mSELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_use_widget_mailer_settings' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_address_name' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- smtp.gmail.com\n...\n"], ["var", "BigosContactBox_address_name"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_port' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- 587\n...\n"], ["var", "BigosContactBox_port"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_Setting.domain' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- yourdomain.dev\n...\n"], ["var", "BigosContactBox_Setting.domain"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- from@yourdomain.dev\n...\n"], ["var", "BigosContactBox_"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_password' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- Super-Secure-Password\n...\n"], ["var", "BigosContactBox_password"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.6ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_location' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "---\n- latitude\n- longitude\n"], ["var", "BigosContactBox_location"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.5ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_invalid_fields_error' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- Invalid Fields\n...\n"], ["var", "BigosContactBox_invalid_fields_error"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_success_message' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- Message sent successfully\n...\n"], ["var", "BigosContactBox_success_message"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_location_name' LIMIT 1
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- Location name\n...\n"], ["var", "BigosContactBox_location_name"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_redirect_path' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosContactBox_redirect_path"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_map_zoom' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosContactBox_map_zoom"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mBigosContactBox::Setting Load (0.4ms)[0m  SELECT "settings".* FROM "settings" WHERE "settings"."thing_type" IS NULL AND "settings"."thing_id" IS NULL AND "settings"."var" = 'BigosContactBox_marker_icon_src' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "settings" ("created_at", "thing_id", "thing_type", "updated_at", "value", "var") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["thing_id", nil], ["thing_type", nil], ["updated_at", Fri, 25 Jan 2013 18:27:12 UTC +00:00], ["value", "--- ''\n"], ["var", "BigosContactBox_marker_icon_src"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:34:45 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (10.5ms)
+  Rendered test/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 19:34:46 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:46 +0100
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:46 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:46 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Processing by TestController#index as HTML
+  Rendered /home/kaptur/rails-workspace/bigos_contact_box_settings/app/views/bigos_contact_box/module/_widget.html.erb (4.0ms)
+  Rendered test/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bigos_contact_box/bigos_contact_box.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Served asset /bigos_contact_box/bigos_contact_box.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-25 19:34:48 +0100
+Served asset /application.js - 304 Not Modified (1ms)
