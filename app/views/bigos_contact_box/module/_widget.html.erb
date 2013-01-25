@@ -24,8 +24,8 @@
 </div>
 <%= hidden_field_tag :marker_icon, asset_path( BigosContactBox::Setting["#{BigosContactBox.name}_marker_icon_src"]) unless  BigosContactBox::Setting["#{BigosContactBox.name}_marker_icon_src"].blank? %>
 <%= hidden_field_tag :map_zoom,  BigosContactBox::Setting["#{BigosContactBox.name}_map_zoom"] unless  BigosContactBox::Setting["#{BigosContactBox.name}_map_zoom"].blank? %>
-<%= hidden_field_tag :latitude,  BigosContactBox::Setting["#{BigosContactBox.name}_location"].first %>
-<%= hidden_field_tag :longitude, BigosContactBox::Setting["#{BigosContactBox.name}_location"].second %>
+<%= hidden_field_tag :latitude,  BigosContactBox::Setting["#{BigosContactBox.name}_latitude"] %>
+<%= hidden_field_tag :longitude, BigosContactBox::Setting["#{BigosContactBox.name}_longitude"] %>
 <%= hidden_field_tag :location_name, BigosContactBox::Setting["#{BigosContactBox.name}_location_name"] %>
 <%= hidden_field_tag :invalid_fields_error,  BigosContactBox::Setting["#{BigosContactBox.name}_invalid_fields_error"] %>
 <div id="contact-box-map-canvas" style="width:400px; height: 400px">

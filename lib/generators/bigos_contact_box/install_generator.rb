@@ -26,7 +26,8 @@ module BigosContactBox
         Setting["#{BigosContactBox.name}_Setting.domain"] = "yourdomain.dev"
         Setting["#{BigosContactBox.name}_"] = "from@yourdomain.dev"
         Setting["#{BigosContactBox.name}_password"] = "Super-Secure-Password"
-        Setting["#{BigosContactBox.name}_location"] = ["latitude", "longitude"]
+        Setting["#{BigosContactBox.name}_latitude"] = ""
+        Setting["#{BigosContactBox.name}_longitude"] = ""
         Setting["#{BigosContactBox.name}_invalid_fields_error"] = "Invalid Fields"
         Setting["#{BigosContactBox.name}_success_message"] = "Message sent successfully"
         Setting["#{BigosContactBox.name}_location_name"] = "Location name"
