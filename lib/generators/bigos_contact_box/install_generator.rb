@@ -33,7 +33,7 @@ module BigosContactBox
         Setting["#{BigosContactBox.name}.redirect_path"] = ""
         Setting["#{BigosContactBox.name}.map_zoom"] = ""
         Setting["#{BigosContactBox.name}.marker_icon_src"] = ""
-        BigosApp::InstalledModule.build(name: BigosContactBox.name, page_element: BigosApp::BigosContactBoxEtactlement.name)
+        BigosApp::InstalledModule.build(name: BigosContactBox.name, page_element: BigosApp::BigosContactBoxElement.name)
       end
 
     end
