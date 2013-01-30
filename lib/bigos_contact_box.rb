@@ -3,7 +3,6 @@ require "bigos_settings"
 
 module BigosContactBox
 
-
   module Controllers
     autoload :Helpers, 'bigos_contact_box/controllers/helpers'
   end
