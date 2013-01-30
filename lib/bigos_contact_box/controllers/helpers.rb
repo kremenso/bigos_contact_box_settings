@@ -3,7 +3,7 @@ module BigosContactBox
     module Helpers
       extend ActiveSupport::Concern
 
-      def bigos_contact_box_widget
+      def bigos_contact_box_widget ()
 
         if Setting.use_widget_mailer_settings
           ActionMailer::Base.delivery_method = :smtp
